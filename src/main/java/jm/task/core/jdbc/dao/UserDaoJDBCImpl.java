@@ -83,7 +83,6 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.executeUpdate(sql);
         } catch (SQLException e) {
             e.printStackTrace();
-            ;
         }
     }
 }
